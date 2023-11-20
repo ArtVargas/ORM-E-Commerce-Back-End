@@ -17,11 +17,9 @@ Category.init(
     // Define the 'category_name' column
 	category_name: {
     type: DataTypes.STRING, // Will set the data type to STRING
+      },
     },
-    },
-    
-  
-  {
+   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
